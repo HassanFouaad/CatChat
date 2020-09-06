@@ -1,0 +1,27 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "Cat Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HassanFouaad/CatChat.git"
+  },
+  "author": "Hassan Fouad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HassanFouaad/CatChat/issues"
+  },
+  "homepage": "https://github.com/HassanFouaad/CatChat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
