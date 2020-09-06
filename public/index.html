@@ -20,6 +20,9 @@
       </header>
       <main class="join-main">
         <form action="chat.html">
+          <div class="form-control" style="display: none">
+            <label for="name"></label> <input type="text" name="name" />
+          </div>
           <div class="form-control">
             <label for="username">Username</label>
             <input
@@ -31,19 +34,23 @@
             />
           </div>
           <div class="form-control">
-            <label for="room">Room</label>
+            <label for="room"></label>
             <select name="room" id="room">
-              <option value="JavaScript">JavaScript</option>
-              <option value="Python">Python</option>
-              <option value="PHP">PHP</option>
-              <option value="C#">C#</option>
-              <option value="Ruby">Ruby</option>
-              <option value="Java">Java</option>
+              <option value="JavaScript">Home</option>
+              <option value="Python">Garden</option>
+              <option value="PHP">Park</option>
+              <option value="C#">Street</option>
+              <option value="Ruby">CatRooms</option>
             </select>
           </div>
           <button type="submit" class="btn">Join Chat</button>
         </form>
       </main>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.2.1/qs.js"
+      integrity="sha512-I6O2jK7VwA5nYxU6vvHYU9aj5P0KH3V1aPPk+EJ/JDYiF7nybienAt35Mm6Wxp8SjbqRh+eYmvpQHV26l5tF3w=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
